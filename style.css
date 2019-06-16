@@ -1,22 +1,85 @@
-.sent{
-  color: #1b8cfc;
+.body-container{
+  max-width: 450px;
+	margin: 50px auto;
+
 }
+
+
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: normal;
+  background-color: #f8f8f8;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  /* border-color: #f8f8f8; */
+  padding: 10px;
+
+
+}
+.fa.fa-chevron-left{
+  padding-right: 5px;
+  font-size: 17px;
+}
+
+.message,.contacts,.fa.fa-chevron-left{
+   color:#1b8cfc;
+}
+
 
 .messages-history{
   font-family: "Helvetica Neue";
 	font-size: 20px;
 	font-weight: normal;
-  max-width: 450px;
-	margin: 50px auto;
   display: flex;
   flex-direction: column;
 }
 
-p {
-  max-width: 255px;
-  word-wrap: break-word;
-  margin-bottom: 12px;
-  line-height: 24px;
-  position:relative;
-	padding:10px 20px;
-  border-radius:25px;
+.sent{
+  display:flex;
+  /* justify-content: flex-end; */
+  background-color: #1b8cfc;
+  color:white;
+	align-self: flex-end;
+  border-radius: 25px;
+  padding: 5px;
+
+}
+
+.received{
+  background-color: #e6e5eb;
+  align-self: flex-start;
+  border-radius: 25px;
+  padding: 5px;
+
+}
+
+.messages{
+  color:#1b8cfc;
+}
+
+
+.delivered-grey-text,.imessage-grey-text{
+  font-size: 13px;
+  color:gray;
+}
+
+.delivered-grey-text{
+  display:flex;
+  justify-content: flex-end;
+  /* font-size: 13px;
+  color:gray; */
+
+
+}
+
+.imessage-grey-text{
+  display:flex;
+  justify-content: center;
+  /* font-size: 13px; */
+  padding: 15px;
+  /* color: gray; */
+}
