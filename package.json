@@ -1,0 +1,14 @@
+{
+  "name": "screenshot",
+  "version": "1.0.0",
+  "description": "Express server",
+  "main": "index.js",
+  "repository": "https://github.com/Yani010712/screenshot.git",
+  "author": "Yani Rodriguez <yani010712@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+  
+}
