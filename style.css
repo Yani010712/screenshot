@@ -5,7 +5,6 @@
 }
 
 
-
 .header-container{
   display: flex;
   justify-content: space-between;
@@ -39,7 +38,7 @@
 }
 
 .sent{
-  display:flex;
+  /* display:flex; */
   /* justify-content: flex-end; */
   background-color: #1b8cfc;
   color:white;
